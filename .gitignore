@@ -1,2 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
+*/migrations/
+docker_django/__pycache__/

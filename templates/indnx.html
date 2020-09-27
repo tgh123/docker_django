@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页 </title>
+</head>
+<body>
+<form action="http:127.0.0.1:8000/api/" method="POST">
+    {% csrf_token %}
+    注册用户：<input type="text" name = "name">
+    注册密码：<input type="password" name="password">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
